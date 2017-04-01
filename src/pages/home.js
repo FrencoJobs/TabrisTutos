@@ -43,17 +43,13 @@ var collectionView = new tabris.CollectionView({
       left: 0, top: 0, right: 0, height: 2,
       background: _colour.toolbar
     }).appendTo(cell);
-  var imageView = new tabris.ImageView({
-  	image:{src: SRC, height:40},
-left:10,top:25
-}).appendTo(cell);
     var nameTextView = new tabris.TextView({
-      left: [imageView, 20],top:12,
+      left: 20,top:12,
       textColor: _colour.toolbar,
       font: 'light 15px'
     }).appendTo(cell);
     var descTextView = new tabris.TextView({
-      left: [imageView, 20],top:[nameTextView, 10],
+      left:20,top:[nameTextView, 10],
       textColor: _colour.desc,
       font: '14px'
     }).appendTo(cell);

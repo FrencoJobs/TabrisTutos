@@ -55,7 +55,7 @@ left:10,top:25
     var descTextView = new tabris.TextView({
       left: [imageView, 20],top:[nameTextView, 10],
       textColor: _colour.desc,
-      font: 'thin 14px'
+      font: '14px'
     }).appendTo(cell);
     new tabris.Composite({
       left: 0, bottom: 0, right: 0, height: 10,

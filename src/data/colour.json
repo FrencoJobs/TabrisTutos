@@ -1,0 +1,12 @@
+{
+"toolbar": "#E25F31",
+"statusBar": "#E25F31",
+"tabFolder":"#E25F31",
+"desc": "rgb(102, 102, 102)",
+"white":"rgb(255,255,255)",
+"offwhite":"rgb(248, 248, 248)",
+"offwhite2":"rgba(248, 248, 248, 0.7)",
+"snowwhite": "rgb(248, 255, 255)",
+"dark":"rgb(48,48,48)",
+"followbutton": "#1bb5ff"
+}

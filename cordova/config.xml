@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tabris.tutos" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tabristutos</name>
+    <description>
+       TabrisTutos - Documentations and snippets for tabris.js.
+    </description>
+    <author email="frenco.willian@gmail.com" href="http://frencojobs.ga">
+        Frenco Jobs
+    </author>
+    <content src="package.json" />
+    <access origin="*" />
+     <platform name="android">
+        <!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+        <icon src="res/android/mipmap-ldpi/ic_launcher.png" density="ldpi" />
+        <icon src="res/android/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+        <icon src="res/android/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+        <icon src="res/android/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
+        <icon src="res/android/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
+        <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+    </platform>
+    
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-x-socialsharing" />
+     <plugin name="cordova-plugin-splashscreen" />
+     <plugin name="cordova.plugins.diagnostic" />
+     <plugin name="cordova-plugin-compat" />
+     <plugin name="cordova-plugin-google-analytics" />
+    
+ <platform name="android">
+ 	<splash src="res/android/drawable-land/screen.png" density="land"/>
+     <splash src="res/android/drawable-land-hdpi/screen.png" density="land-hdpi"/>
+    <splash src="res/android/drawable-land-ldpi/screen.png" density="land-ldpi"/>
+    <splash src="res/android/drawable-land-mdpi/screen.png" density="land-mdpi"/>
+    <splash src="res/android/drawable-land-xhdpi/screen.png" density="land-xhdpi"/>
+    <splash src="res/android/drawable-land-xxhdpi/screen.png" density="land-xxhdpi"/>
+    <splash src="res/android/drawable-land-xxxhdpi/screen.png" density="land-xxxhdpi"/>
+
+   <splash src="res/android/drawable/screen.png" density="port"/>
+   <splash src="res/android/drawable-hdpi/screen.png" density="port-hdpi"/>
+    <splash src="res/android/drawable-ldpi/screen.png" density="port-ldpi"/>
+    <splash src="res/android/drawable-mdpi/screen.png" density="port-mdpi"/>
+    <splash src="res/android/drawable-xhdpi/screen.png" density="port-xhdpi"/>
+    <splash src="res/android/drawable-xxhdpi/screen.png" density="land-xxhdpi"/>
+    <splash src="res/android/drawable-xxxhdpi/screen.png" density="land-xxxhdpi"/>
+
+    </platform>
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>

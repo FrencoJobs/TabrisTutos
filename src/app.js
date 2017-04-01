@@ -62,6 +62,6 @@ cell.on('tap', function(widget, event) {
 })
 	  .on('touchend', function({target}) {
 	target.background = _colour.white;
-	textView.textColor = _colour.white;
+	textView.textColor = _colour.dark;
 });
 };

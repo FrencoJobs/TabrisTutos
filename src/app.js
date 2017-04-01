@@ -17,7 +17,7 @@ home.create().appendTo(navigation);
 
 var imageView = new tabris.ImageView({
     left: 0, right:0,top: 0, 
-    image:{src: 'src/images/icons/landscape.png'}
+    image:{src: 'src/images/icons/landscape.jpg'}
   }).appendTo(tabris.ui.drawer);
   new tabris.Composite({
   left: 0, top: [imageView, 8], right: 0, 

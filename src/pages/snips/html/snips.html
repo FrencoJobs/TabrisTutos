@@ -1,5 +1,9 @@
 <style>
-body {
+      @font-face {
+  font-family: RobotoRegular;
+  src: url('file:///android_asset/www/src/roboto-regular.ttf');
+}
+      body {
       margin: 0;
       background-color: #f7f7f7;
     }
@@ -18,8 +22,8 @@ margin-top:15px;
     pre[class*="language-"] {
       color: black;
       text-shadow: 0 1px white;
-      font-family: Consolas, Monaco, 'Andale Mono', monospace;
-      font-size: small;
+      font-family:  RobotoRegular, sans-serif;
+      font-size: 14sp;
       direction: ltr;
       text-align: left;
       white-space: pre;
@@ -124,7 +128,7 @@ margin-top:15px;
       cursor: help;
     }
     #end{
-color: #E25F31;
+color: #607D8B;
 font-size:50px;
 text-align:center;
 border-bottom:5px solid #f7f7f7;

@@ -9,6 +9,7 @@ var _content = tabris.ui.contentView;
 tabris.ui.drawer.enabled = true;
 tabris.ui.drawer.background = _colour.white;
 tabris.ui.statusBar.background = _colour.statusBar;
+StatusBar.backgroundColorByHexString(_colour.statusBar);
 tabris.ui.statusBar.theme = "dark";
 
 var navigation = nav.navigation().appendTo(_content);

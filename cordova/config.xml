@@ -25,7 +25,7 @@
         <icon src="res/android/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
         <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
     </platform>
-    
+    <plugin name="cordova-plugin-statusbar" />    
     <plugin name="cordova-plugin-dialogs" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-file" />
@@ -54,4 +54,5 @@
 
     </platform>
     <preference name="SplashScreenDelay" value="10000" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
 </widget>

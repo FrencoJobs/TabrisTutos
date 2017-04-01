@@ -19,8 +19,13 @@ var imageView = new tabris.ImageView({
     left: 0, right:0,top: 0, 
     image:{src: 'src/images/icons/landscape.png'}
   }).appendTo(tabris.ui.drawer);
-  
-  [{title: 'Home', page:'home', img:'src/images/icons/home-variant.png'},{title: 'About Developer', page:'aboutDev', img:'src/images/icons/face.png'}, {title: 'About Tabris', page:'aboutTabris', img:'src/images/icons/information.png'},{title: 'Credits', page:'credits', img:'src/images/icons/book-open-page-variant.png'}].
+  new tabris.Composite({
+  left: 0, top: [imageView, 8], right: 0, 
+  height:8,
+  background: _colour.white
+ }).appendTo(tabris.ui.drawer);
+
+[{title: 'Home', page:'home', img:'src/images/icons/home-variant.png'},{title: 'About Developer', page:'aboutDev', img:'src/images/icons/face.png'}, {title: 'About Tabris', page:'aboutTabris', img:'src/images/icons/information.png'},{title: 'Credits', page:'credits', img:'src/images/icons/book-open-page-variant.png'}].
   forEach(function(item){
   createPageSelector(item);
   });
@@ -53,8 +58,10 @@ cell.on('tap', function(widget, event) {
 })
     .on('touchstart', function({target}) {
 	target.background = _colour.offwhite;
-	})
-	.on('touchend', function({target}) {
+	textView.textColor = _colour.toolbar;
+})
+	  .on('touchend', function({target}) {
 	target.background = _colour.white;
-	});
+	textView.textColor = _colour.white;
+});
 };

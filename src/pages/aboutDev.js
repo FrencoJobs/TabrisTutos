@@ -55,7 +55,7 @@ var xhrCSS = new window.XMLHttpRequest();
   xhr.send();
     }
   };
-  xhrCSS.open('GET', '././src/pages/css/crd-marked.css');
+  xhrCSS.open('GET', '././src/pages/css/marked.css');
   xhrCSS.send();
   
 var follow = new tabris.Composite({
